@@ -10,6 +10,20 @@
   .sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
   }
+  span {
+      font-size: 24px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
+  }
 }
 
 /* Desktop
@@ -22,6 +36,21 @@
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 0;
+  }
+
+  span {
+      font-size: 18px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
   }
 
 }
@@ -39,7 +68,21 @@
     width: 166px;
     margin-top: 20px;
   }
-  
+
+  span {
+      font-size: 16px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
+  }
 }
 
 /* Tablet
@@ -60,6 +103,20 @@
 
   .page-header h1 span.date{
 	display:block; overflow: hidden; width: 0; height: 0;
+  }
+  span {
+      font-size: 14px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
   }
 }
 
@@ -90,7 +147,20 @@
   }
 
   .page-header h1 span.date{
-	display:block; overflow: hidden; width: 0; height: 0; 
+	display:block; overflow: hidden; width: 0; height: 0;
   }
+  span {
+      font-size: 14px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
 
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
+  }
 }

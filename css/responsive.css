@@ -10,6 +10,13 @@
   .sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
   }
+
+  span {
+      font-size: 25px;
+  }
+  h1 {
+    margin: 0px;
+  }
 }
 
 /* Desktop
@@ -39,7 +46,14 @@
     width: 166px;
     margin-top: 20px;
   }
-  
+
+  span {
+      font-size: 15px;
+  }
+  h1 {
+    margin: 0px;
+  }
+
 }
 
 /* Tablet
@@ -60,6 +74,14 @@
 
   .page-header h1 span.date{
 	display:block; overflow: hidden; width: 0; height: 0;
+  }
+
+
+  span {
+      font-size: 15px;
+  }
+  h1 {
+    margin: 0px;
   }
 }
 
@@ -90,7 +112,12 @@
   }
 
   .page-header h1 span.date{
-	display:block; overflow: hidden; width: 0; height: 0; 
+	display:block; overflow: hidden; width: 0; height: 0;
   }
-
+  span {
+      font-size: 15px;
+  }
+  h1 {
+    margin: 0px;
+  }
 }
