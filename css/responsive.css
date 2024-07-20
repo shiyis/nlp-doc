@@ -172,7 +172,9 @@
   h1#Hello-There-Welcome-To-This-Blog {
     margin: auto;
   }
-  .page-header {
-    margin: initial;
+
+
+  h1 {
+    margin: auto;
   }
 }
