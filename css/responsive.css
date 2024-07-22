@@ -10,7 +10,7 @@
   .sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
   }
-  span {
+  span#title {
       font-size: 24px;
       margin: auto;
   }
@@ -38,7 +38,7 @@
     margin-right: 0;
   }
 
-  span {
+  span#title {
       font-size: 18px;
       margin: auto;
   }
@@ -71,7 +71,7 @@
     margin-top: 20px;
   }
 
-  span {
+  span#title {
       font-size: 16px;
       margin: auto;
   }
@@ -109,7 +109,7 @@
   .page-header h1 span.date{
 	display:block; overflow: hidden; width: 0; height: 0;
   }
-  span {
+  span#title {
       font-size: 14px;
       margin: auto;
   }
@@ -157,7 +157,7 @@
   .page-header h1 span.date{
 	display:block; overflow: hidden; width: 0; height: 0;
   }
-  span {
+  span#title {
       font-size: 14px;
       margin: auto;
   }
@@ -171,10 +171,17 @@
 
   h1#Hello-There-Welcome-To-This-Blog {
     margin: auto;
+    font-size: smaller
   }
 
 
   h1 {
     margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .content {
+
+    margin: 20px 0px;
   }
 }
