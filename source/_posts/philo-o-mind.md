@@ -1,6 +1,6 @@
 ---
 title: Phil-O-Mind
-date: 2024-07-13 18:27:10 
+date: 2024-07-13 18:27:10
 categories:
   - Content
 tags:
@@ -129,10 +129,9 @@ The blog covers the following topics:
 
 <span class="label label-success">A</span> Here are some key references:</p>
 <ul>
-  <li>Rescorla, Michael. “The Computational Theory of Mind.” The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), edited by Edward N. Zalta.</li>
-  <li>Rumelhart, D. E., McClelland, J. L., & the PDP Research Group. (1986). Parallel Distributed Processing: Explorations in the Microstructure of Cognition.</li>
-  <li>Clark, A. (1993). Connectionism and Cognitive Architecture: A Critical Analysis.</li>
-  <li>Bechtel, W., & Graham, G. (Eds.). (1998). Connectionism and Cognitive Science.</li>
-  <li>Horgan, T., & Tienson, J. (1996). Foundations of Connectionism: A Reassessment.</li>
-  <li>Clark, A. (2001). Mindware: An Introduction to the Philosophy of Cognitive Science.</li>
+  <li>Rescorla, Michael. "The Computational Theory of Mind." The Stanford Encyclopedia of Philosophy, edited by Edward N. Zalta, Fall 2020 Edition.</li> <li>Rumelhart, David E., James L. McClelland, and the PDP Research Group. Parallel Distributed Processing: Explorations in the Microstructure of Cognition, 1986.</li>
+  <li.Clark, Andy. Connectionism and Cognitive Architecture: A Critical Analysis, 1993.</li>
+  <li>Bechtel, William, and George Graham, editors. Connectionism and Cognitive Science, 1998.</li>
+  <li>Horgan, Terence, and John Tienson. Foundations of Connectionism: A Reassessment, 1996.</li>
+  <li>Clark, Andy. Mindware: An Introduction to the Philosophy of Cognitive Science, 2001.</li> 
 </ul>
