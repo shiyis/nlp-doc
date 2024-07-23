@@ -10,7 +10,7 @@ tags:
   - intro
 ---
 
-# <span id="title">Hello There! Welcome To This Blog.</span>
+# <span id="title-intro">Hello There! Welcome To This Blog.</span>
 
 I’m Shiyi. I’m deeply passionate about the intricate dance between data and innovation. With a fervent zeal for leveraging technology to extract insights and create meaningful impact, I’ve embarked on a journey that spans the realms of Data Science, research, and creative expression.
 
