@@ -20,6 +20,14 @@
   border-radius: 6px;
 }
 
+
+/* Centering display math (e.g., equations that use $$...$$ or \[...\]) */
+div.MathJax_Display {
+  text-align: center;
+}
+
+
+
 /* =============================================================================
    Body and structure
    ========================================================================== */
