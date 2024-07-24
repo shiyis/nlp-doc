@@ -55,6 +55,10 @@
   a.brand {
     font-size: 32px;
   }
+
+  .page-header h1 span.title {
+    font-size: 32px;
+  }
 }
 
 /* Tablet to desktop
@@ -86,6 +90,14 @@
     margin: initial;
   }
   a.brand {
+    font-size: 30px;
+  }
+
+  .page-header h1 span.title {
+    font-size: 30px;
+  }
+
+  .page-header h1 span.title {
     font-size: 30px;
   }
 }
@@ -126,6 +138,10 @@
   .page-header {
     margin: initial;
   }
+
+  .page-header h1 span.title {
+    font-size: 28px;
+  }
 }
 
 /* Landscape phones
@@ -164,7 +180,9 @@
   /* h1 {
     margin: auto;
   } */
-
+  .page-header h1 span.title {
+    font-size: 20px;
+  }
   a.brand {
     font-size: 20px;
   }
@@ -187,5 +205,37 @@
   .content {
 
     margin: 20px 0px;
+  }
+}
+
+
+
+/* General MathJax styling for all screen sizes */
+span.math {
+  font-size: 100%; /* Default font size */
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  span.math {
+    font-size: 80%; /* Adjust to 80% of the default size */
+  }
+}
+
+/* Media query for screens between 600px and 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  span.math {
+    font-size: 90%; /* Adjust to 90% of the default size */
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  span.math {
+    font-size: 80%; /* Adjust to 80% of the default size */
+  }
+
+  .page-header h1 span.title {
+    font-size: 21px;
   }
 }
