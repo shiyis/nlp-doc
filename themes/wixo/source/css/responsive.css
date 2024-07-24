@@ -210,22 +210,18 @@
 
 
 
-/* General MathJax styling for all screen sizes */
-.MathJax span {
-  font-size: 21px; /* Default font size */
-}
 
 /* Media query for screens smaller than 600px */
 @media screen and (max-width: 600px) {
   .MathJax span {
-    font-size: 18px; /* Adjust to 80% of the default size */
+    font-size: 15px; /* Adjust to 80% of the default size */
   }
 }
 
 /* Media query for screens between 600px and 900px */
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .MathJax span {
-    font-size: 15px; /* Adjust to 90% of the default size */
+    font-size: 13px; /* Adjust to 90% of the default size */
   }
 }
 
@@ -234,10 +230,5 @@
   .MathJax span {
     font-size: 12px; /* Adjust to 80% of the default size */
     text-align: center;
-  }
-
-
-  .page-header h1 span.title {
-    font-size: 21px;
   }
 }

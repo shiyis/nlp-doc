@@ -26,6 +26,11 @@ div.MathJax_Display {
   text-align: center;
 }
 
+/* Optional: Centering inline math (e.g., equations that use \(...\) or $...$) */
+span.MathJax {
+  display: block; /* Treat inline math as block to center it */
+  margin: 0 auto;
+}
 
 
 /* =============================================================================
