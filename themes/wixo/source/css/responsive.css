@@ -228,7 +228,7 @@
 
 @media screen and (max-width: 480px) {
   .MathJax span {
-    font-size: 12px; /* Adjust to 80% of the default size */
+    font-size: 10px; /* Adjust to 80% of the default size */
     text-align: center;
   }
 }
