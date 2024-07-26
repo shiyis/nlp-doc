@@ -9,9 +9,9 @@ tags:
 ---
 
 
-### In This Blog, We Will Go Through The Foundations behind Automatic Differentiation  
+### Intro to Automatic Differentiation  
 
-
+In this blog, we will go through the foundations behind Automatic Differentiation. 
 
 <p style="margin-left:1px;  margin-top: 30px">
 
