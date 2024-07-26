@@ -6,17 +6,17 @@ categories:
   - Content
 ---
 
-## Dealing with Compositionality
+### Dealing with Compositionality
 
 This blog will introduce the research done in syntax that addressed compositionality.
 
-### Non-Overlap Constraint Explained
+#### Non-Overlap Constraint Explained
 
 The non-overlap constraint is a rule in cognitive models or neural networks that prevents overlapping activations of units in a chain map. This ensures that no two units representing the same syntactic marker can be active simultaneously, which helps maintain clear and distinct representations.
 
-### Diagram Breakdown
+#### Diagram Breakdown
 
-#### Components:
+###### Components:
 
 1. **Chain Map (Green Text):**
 
@@ -33,13 +33,13 @@ The non-overlap constraint is a rule in cognitive models or neural networks that
 
    - These links prevent other units in the corresponding diagonal of the chain map from activating, thereby enforcing the non-overlap constraint.
 
-#### Process:
+###### Process:
 
 1. When a unit in the chain map is activated, it activates its corresponding unit in the non-overlap map.
 2. The active unit in the non-overlap map then inhibits all other units in the same diagonal in the chain map.
 3. This ensures no two units in the chain map, which represent the same syntactic marker, can be active simultaneously.
 
-### Pseudo Code Explanation
+#### Pseudo Code Explanation
 
 Here's the pseudo code that models this behavior:
 
@@ -76,7 +76,7 @@ Here's the pseudo code that models this behavior:
 
 ```
 
-### Detailed Code Example with Explanation
+#### Detailed Code Example with Explanation
 
 Let's look at a more detailed implementation that matches the diagram:
 
@@ -129,7 +129,7 @@ Let's look at a more detailed implementation that matches the diagram:
 
 ```
 
-### Summary
+#### Summary
 
 1. **Chain Map Activation:**
 
@@ -140,6 +140,6 @@ Let's look at a more detailed implementation that matches the diagram:
    - The activated unit in the non-overlap map inhibits other units in the same diagonal in the chain map.
    - This ensures that other units in the corresponding diagonal of the chain map remain inactive, preserving the non-overlap constraint.
 
-### Conclusion
+#### Conclusion
 
 By combining the visual diagram with the detailed code example, we've illustrated how the non-overlap constraint is implemented and enforced in a cognitive or neural model. The non-overlap map plays a crucial role in ensuring that units representing the same syntactic marker do not overlap in their activation, maintaining a clear and distinct representation of information.

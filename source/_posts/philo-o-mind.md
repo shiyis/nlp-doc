@@ -7,7 +7,7 @@ tags:
   - nlp-theories
 ---
 
-## Cognitive Sicence and The Philosophy of Mind
+### Cognitive Sicence and The Philosophy of Mind
 <span class="label label-danger">Q</span> What is the focus of this blog?</span>
 
 <span class="label label-success">A</span> This blog will summarize articles, papers, and materials I have gone through that touch on the subject of Philosophy of Mind and how its presence lays important foundation for the development of general artificial intelligence.
@@ -133,5 +133,5 @@ The blog covers the following topics:
   <li.Clark, Andy. Connectionism and Cognitive Architecture: A Critical Analysis, 1993.</li>
   <li>Bechtel, William, and George Graham, editors. Connectionism and Cognitive Science, 1998.</li>
   <li>Horgan, Terence, and John Tienson. Foundations of Connectionism: A Reassessment, 1996.</li>
-  <li>Clark, Andy. Mindware: An Introduction to the Philosophy of Cognitive Science, 2001.</li> 
+  <li>Clark, Andy. Mindware: An Introduction to the Philosophy of Cognitive Science, 2001.</li>
 </ul>

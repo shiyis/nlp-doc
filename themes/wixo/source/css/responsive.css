@@ -28,7 +28,7 @@
   #iframe-yt-video
   {
       width: 100%;
-      height: 500px;
+      height: 550px;
   }
 }
 
@@ -246,7 +246,7 @@
 
 @media screen and (max-width: 480px) {
   .MathJax span {
-    font-size: 10px; /* Adjust to 80% of the default size */
+    font-size: 12px; /* Adjust to 80% of the default size */
     text-align: center;
   }
 }

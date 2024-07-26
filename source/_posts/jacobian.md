@@ -4,13 +4,13 @@ date: 2024-07-15 17:43:00
 categories:
   - Content
 ---
-## Discussions on Jacobian Matrices Continued
+### Discussions on Jacobian Matrices Continued
 
 
 This blog will break down and continue explaining Jacobian matrices and Taylor expansions in plain language and explore how they are connected.
 
 
-### Jacobian Matrix
+#### Jacobian Matrix
 
 **What it is:**
 - Imagine you have a function that takes multiple inputs and gives multiple outputs. For example, you might have a function that takes two numbers (like coordinates $x$ and $y$) and gives back two other numbers.
@@ -30,7 +30,7 @@ $$ \text{Jacobian} = \begin{pmatrix}
 - Each entry in the Jacobian matrix tells you how one output changes with respect to one input.
 - For instance, $\frac{\partial u}{\partial x}$ tells you how $u$ changes when you make a tiny change in $x$.
 
-### Taylor Expansion
+#### Taylor Expansion
 
 **What it is:**
 - The Taylor expansion is a way to approximate a complex function using simpler polynomial terms.
@@ -48,7 +48,7 @@ $ f(x) \approx f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \cdots $
 - The second term $f'(a)(x-a)$ shows how the function changes linearly around $a$.
 - The higher-order terms $\frac{f''(a)}{2!}(x-a)^2$, etc., show more complex changes (like curvature).
 
-### Connection Between Jacobian Matrix and Taylor Expansion
+#### Connection Between Jacobian Matrix and Taylor Expansion
 
 **How they are connected:**
 - When you use the Taylor expansion for functions with multiple inputs and outputs, the Jacobian matrix comes into play.

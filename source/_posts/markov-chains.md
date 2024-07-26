@@ -5,17 +5,17 @@ categories:
 date: 2024-07-16 08:13:20
 layout: search
 ---
-## Discussions on markov processes Contitnued
+### Discussions on markov processes Contitnued
 
 In a different blog, I noted the use of a markov processes in the context of natural language processing. Now in this blog, we will be going through some important details with regard to the concept.
 
 We will go through some code in the subsequent paragraph with respect to how to simulate Markov Chain in coding.
 
-### Markov Chain Basics
+#### Markov Chain Basics
 
 A Markov chain is a mathematical system that undergoes transitions from one state to another within a finite or countable number of states. It is a stochastic process that satisfies the Markov property, which states that the future state depends only on the current state and not on the sequence of events that preceded it.
 
-### Components of a Markov Chain
+#### Components of a Markov Chain
 
 1. **States**: The different possible conditions or configurations the system can be in.
    - Let's denote the set of all states as $ S = \{ s_1, s_2, \ldots, s_n \} $.
@@ -33,23 +33,23 @@ $$
   \end{pmatrix}
 $$
 
-### Markov Property
+#### Markov Property
 
 The Markov property states that the probability of transitioning to the next state depends only on the current state and not on the past states:
 $ P(X_{t+1} = s_j \mid X_t = s_i, X_{t-1} = s_{i-1}, \ldots, X_0 = s_0) = P(X_{t+1} = s_j \mid X_t = s_i) $
 
-### Step-by-Step Process
+#### Step-by-Step Process
 
 Let's go through the process of a Markov chain step by step.
 
-### Step 1: Define the States
+#### Step 1: Define the States
 
 Identify all possible states of the system. Suppose we have a simple weather system with three states:
 - $ s_1 $: Sunny
 - $ s_2 $: Cloudy
 - $ s_3 $: Rainy
 
-### Step 2: Define the Transition Probabilities
+#### Step 2: Define the Transition Probabilities
 
 Determine the probabilities of moving from one state to another. For example, the transition probabilities might be:
 
@@ -71,7 +71,7 @@ $$ P = \begin{pmatrix}
     0.2 & 0.3 & 0.5
 \end{pmatrix} $$
 
-### Step 3: Initial State Distribution
+#### Step 3: Initial State Distribution
 
 Define the initial state distribution vector $ \pi $, which represents the probability distribution of starting in each state. For example, if we start with a 100% chance of it being sunny:
 
@@ -81,7 +81,7 @@ $$ \pi = \begin{pmatrix}
     0
 \end{pmatrix} $$
 
-### Step 4: State Prediction
+#### Step 4: State Prediction
 
 
 To predict the state distribution after one step, multiply the initial state distribution vector $ \pi $ by the transition matrix $ P $:
@@ -104,13 +104,13 @@ $$ \pi^{(1)} = \begin{pmatrix}
 
 This tells us that after one step, there's a 70% chance of it being sunny, a 20% chance of it being cloudy, and a 10% chance of it being rainy.
 
-### Step 5: Long-Term Behavior
+#### Step 5: Long-Term Behavior
 
 To find the steady-state distribution (long-term behavior), solve for $ \pi $ in the equation:
 $ \pi P = \pi $
 This often involves solving a system of linear equations. The steady-state distribution is the vector $ \pi $ that remains unchanged after application of the transition matrix $ P $.
 
-### Example Calculation
+#### Example Calculation
 
 If we continue the prediction for multiple steps, we can see how the state distribution evolves over time. For example, after two steps:
 
@@ -138,7 +138,7 @@ $$ \pi^{(2)} = \begin{pmatrix}
 
 So after two steps, there's a 53% chance of it being sunny, a 26% chance of it being cloudy, and a 21% chance of it being rainy.
 
-### Summary
+#### Summary
 
 
 
@@ -150,7 +150,7 @@ The function initializes the state vector to all zeros, with a 1 in the first po
 
 Finally, we simulate the Markov process for 100 steps and print the resulting state history.
 
-## In What Scenarios Is Markov Chain Applicable?
+### In What Scenarios Is Markov Chain Applicable?
 
 
 Simulating all these processes using Markov processes can be quite extensive. However, I can provide a basic framework and example for a few of these applications, demonstrating how Markov processes can be applied. We will use Python and some common libraries such as NumPy for these simulations.
@@ -199,7 +199,7 @@ This section breaks down a simple example of how to build a simple markov chain 
 ```
 
 
-### Example 1: Modeling Stock Prices
+#### Example 1: Modeling Stock Prices
 
 We will model the stock price as a Markov process where each state represents a certain price level, and transitions occur based on market conditions.
 
@@ -246,7 +246,7 @@ We will model the stock price as a Markov process where each state represents a 
 
 ```
 
-### Example 2: Disease Progression
+#### Example 2: Disease Progression
 
 We will model the progression of a disease over time, where states represent different health conditions (e.g., Healthy, Sick, Recovered).
 
@@ -284,7 +284,7 @@ We will model the progression of a disease over time, where states represent dif
 
 ```
 
-### Example 3: Queueing Systems in a Service System
+#### Example 3: Queueing Systems in a Service System
 
 We will model a queueing system where states represent the number of customers in a queue.
 
@@ -330,7 +330,7 @@ We will model a queueing system where states represent the number of customers i
 
 ```
 
-### Example 4: Customer Loyalty
+#### Example 4: Customer Loyalty
 
 We will model customer loyalty, predicting transitions between different customer states (Active, Inactive, Loyal).
 
@@ -368,7 +368,7 @@ We will model customer loyalty, predicting transitions between different custome
 
 ```
 
-## Summary
+### Summary
 
 
 This framework can be extended to simulate other processes like economic forecasting, pharmacokinetics, network protocols, etc.
@@ -393,7 +393,7 @@ Each simulation contains these properties:
 This basic approach can be adapted and extended to suit the specific characteristics and requirements of each application.
 
 
-### Markov Chain
+#### Markov Chain
 
 
 A Markov chain is a specific type of Markov process that deals with discrete states and discrete time steps. It is characterized by the following:
@@ -402,7 +402,7 @@ A Markov chain is a specific type of Markov process that deals with discrete sta
 2. **Discrete Time Steps**: The process evolves in discrete time steps $ t = 0, 1, 2, \ldots $.
 3. **Markov Property**: The probability of transitioning to the next state depends only on the current state and not on the sequence of events that preceded it.
 
-#### Formal Definition
+###### Formal Definition
 
 
 A Markov chain is defined by:
@@ -411,7 +411,7 @@ A Markov chain is defined by:
 
 $$ P(X_{t+1} = s_j \mid X_t = s_i) = P_{ij} $$
 
-### Markov Process
+#### Markov Process
 
 
 A Markov process is a more general concept that includes both discrete and continuous cases. It is characterized by:
@@ -420,7 +420,7 @@ A Markov process is a more general concept that includes both discrete and conti
 2. **Time Steps**: The process can evolve in either discrete time steps (like in a Markov chain) or continuous time.
 3. **Markov Property**: Similar to the Markov chain, the future state depends only on the current state and not on past states.
 
-### Types of Markov Processes
+#### Types of Markov Processes
 
 
 1. **Discrete-Time Markov Process (Markov Chain)**:
@@ -440,7 +440,7 @@ A CTMC is a specific type of Markov process where:
 · Time is continuous.
 · The transitions are governed by rates, often described using a rate matrix $ Q $.
 
-### Summary of Differences
+#### Summary of Differences
 
 
 - **State Space**:
@@ -456,7 +456,7 @@ A CTMC is a specific type of Markov process where:
   - **Markov Process**: Defined by transition probabilities for discrete time or transition rates for continuous time.
 
 
-### Markov Chain (Discrete-Time, Discrete State)
+#### Markov Chain (Discrete-Time, Discrete State)
 
 
 Consider a simple weather model with three states: Sunny, Cloudy, and Rainy. The transitions are defined for each day (discrete time steps).
@@ -472,7 +472,7 @@ Consider a simple weather model with three states: Sunny, Cloudy, and Rainy. The
   \end{pmatrix}
   $$
 
-### Continuous-Time Markov Process (Continuous-Time, Discrete State)
+#### Continuous-Time Markov Process (Continuous-Time, Discrete State)
 
 
 Consider a population model where individuals can be in different health states: Healthy, Sick, and Recovered. The transitions happen continuously over time, with certain rates.

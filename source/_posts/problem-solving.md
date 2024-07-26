@@ -6,7 +6,7 @@ categories:
   - Content
 ---
 
-## More on Logic And Problem Solving
+### More on Logic And Problem Solving
 
 
 In a different [blog](https://shiyis.github.io/nlpwme/modules/1h-semantics/), I have briefly introduced some of the most important concepts of logic and problem solving, including but not limited to predicate calculus, propositional logic, and lambda calculus.
@@ -14,7 +14,7 @@ In a different [blog](https://shiyis.github.io/nlpwme/modules/1h-semantics/), I 
 In this blog, the notes will be more in detail and introduce relevant ideas.
 
 
-### Defining Entailment, Implicatures, and Presuppositions
+#### Defining Entailment, Implicatures, and Presuppositions
 
 
 **Implicatures**: What's suggested in an utterance, even though it is not explicitly stated or entailed by the utterance.
@@ -24,7 +24,7 @@ In this blog, the notes will be more in detail and introduce relevant ideas.
 **Presuppositions**: A presupposition is an assumption that as speaker makes about what the listener already knows or believes to be true. It's information taken for granted in the utterance.
 
 
-#### Differences Between The Above Three
+###### Differences Between The Above Three
 
 
 Let's define implicatures, entailments, and presuppositions and compare their differences in simple terms
@@ -56,7 +56,7 @@ _**Example Comparisons**_:
   Statement: "The king of France is bald."
   Presupposition: There is a king of France. This assumption is taken for granted by the speaker.
 
-#### Summary
+###### Summary
 
 **Implicatures** are implied meanings that depend on context and can be canceled without contradiction.
 **Entailments** are logical consequences that must be true if the initial statement is true, and they cannot be canceled without contradiction.
@@ -66,21 +66,21 @@ By understanding these differences, we can better analyze and interpret the subt
 
 Lambda calculus is a formal system in mathematical logic and computer science for expressing computation based on function abstraction and application. It was introduced by Alonzo Church in the 1930s as part of his work on the foundations of mathematics.
 
-### Basic Concepts of Lambda Calculus
+#### Basic Concepts of Lambda Calculus
 
-#### 1. **Lambda Abstraction**:
+###### 1. **Lambda Abstraction**:
   - **Syntax**: `λx. E`
   - **Explanation**: This denotes an anonymous function with a parameter `x` and body `E`. For example, `λx. x + 1` represents a function that takes an argument `x` and returns `x + 1`.
 
-#### 2. **Application**:
+###### 2. **Application**:
   - **Syntax**: `(F A)`
   - **Explanation**: This denotes the application of function `F` to argument `A`. For example, `(λx. x + 1) 2` applies the function `λx. x + 1` to `2`, resulting in `3`.
 
-#### 3. **Variables**:
+###### 3. **Variables**:
   - **Syntax**: `x`
   - **Explanation**: Variables are placeholders for values or other expressions. In `λx. x`, `x` is a variable.
 
-#### Expressions
+###### Expressions
 
 In lambda calculus, expressions are built using variables, lambda abstractions, and applications. These are called lambda expressions or terms. The grammar of lambda expressions is defined as:
 
@@ -88,7 +88,7 @@ In lambda calculus, expressions are built using variables, lambda abstractions, 
  **Lambda Abstraction**: `λx. E` where `x` is a variable and `E` is a lambda expression.
  **Application**: `(E1 E2)` where `E1` and `E2` are lambda expressions.
 
-#### Reduction
+###### Reduction
 
 Lambda calculus defines computation through the process of **reduction**, which simplifies lambda expressions. There are two main types of reduction:
 
@@ -100,7 +100,7 @@ Lambda calculus defines computation through the process of **reduction**, which 
     **Explanation**: Applying a lambda function to an argument. For example, `(λx. x + 1) 2` reduces to `2 + 1` which further reduces to `3`.
     **Process**: Replace the bound variable with the argument in the body of the abstraction. `(λx. E1) E2` reduces to `E1[E2/x]`, where `E1[E2/x]` denotes substitution of `E2` for `x` in `E1`.
 
-#### Example of Beta Reduction
+###### Example of Beta Reduction
 
 Consider the expression: `(λx. (λy. x + y) 2) 3`.
 
@@ -115,7 +115,7 @@ Consider the expression: `(λx. (λy. x + y) 2) 3`.
 3. Simplify the expression:
     `3 + 2` reduces to `5`.
 
-#### Significance in Computer Science
+###### Significance in Computer Science
 
 Lambda calculus serves as the foundation for understanding computation and functional programming languages. Key aspects include:
 
@@ -123,7 +123,7 @@ Lambda calculus serves as the foundation for understanding computation and funct
  **Programming Language Theory**: Lambda calculus provides a framework for studying the properties of functions and recursive definitions.
  **Type Systems**: Extensions of lambda calculus, such as the simply typed lambda calculus, form the basis for type systems in programming languages.
 
-#### Church-Turing Thesis
+###### Church-Turing Thesis
 
 Lambda calculus is also central to the **Church-Turing thesis**, which posits that any computable function can be computed by a Turing machine, and equivalently, can be expressed in lambda calculus. This establishes lambda calculus as a universal model of computation.
 
