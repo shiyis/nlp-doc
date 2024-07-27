@@ -1,0 +1,252 @@
+/* Responsive
+-------------------------------------------------- */
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+  .sidenav {
+    width: 258px;
+  }
+  .sidenav > li > a {
+    width: 230px \9; /* Override the previous IE8-9 hack */
+  }
+  span#title {
+      font-size: 24px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
+  }
+
+  #iframe-yt-video
+  {
+      width: 100%;
+      height: 550px;
+  }
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 991px) and (max-width: 1199px)  {
+  /* When affixed, space properly */
+  .sidenav {
+    top: 0;
+    width: 218px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  span#title-intro {
+      font-size: 18px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
+  }
+  a.brand {
+    font-size: 32px;
+  }
+
+  .page-header h1 span.title {
+    font-size: 32px;
+  }
+
+  #iframe-yt-video
+  {
+      width: 100%;
+      height: 400px;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 990px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Adjust sidenav width */
+  .sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+
+  span#title-intro {
+      font-size: 16px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  .page-header {
+    margin: initial;
+  }
+  a.brand {
+    font-size: 30px;
+  }
+
+  .page-header h1 span.title {
+    font-size: 30px;
+  }
+
+  .page-header h1 span.title {
+    font-size: 30px;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Sidenav */
+  .sidenav {
+    margin-bottom: 20px;
+    position: static;
+    width: auto;
+    top: 0;
+  }
+
+  .page-header h1 span.date{
+	display:block; overflow: hidden; width: 0; height: 0;
+  }
+  span#title-intro {
+      font-size: 14px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+  }
+  a.brand {
+    font-size: 28px;
+  }
+  .page-header {
+    margin: initial;
+  }
+
+  .page-header h1 span.title {
+    font-size: 28px;
+  }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+  /* Remove padding above jumbotron */
+  body {
+    padding-top: 0;
+  }
+
+  /* Change up some type stuff */
+  h2 small {
+    display: block;
+  }
+
+  /* Do our best to make tables work in narrow viewports */
+  table code {
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+  .sidenav{
+    position: static;
+    width: auto;
+    top: 0;
+  }
+
+  .page-header h1 span.date{
+	display:block; overflow: hidden; width: 0; height: 0;
+  }
+  span#title-intro {
+      font-size: 14px;
+      margin: auto;
+  }
+  /* h1 {
+    margin: auto;
+  } */
+  .page-header h1 span.title {
+    font-size: 20px;
+  }
+  a.brand {
+    font-size: 20px;
+  }
+
+  h1#Hello-There-Welcome-To-This-Blog {
+    margin: auto;
+    font-size: smaller
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+
+  h1 {
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .content {
+
+    margin: 20px 0px;
+  }
+}
+
+
+
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .MathJax span {
+    font-size: 15px; /* Adjust to 80% of the default size */
+  }
+
+  #iframe-yt-video{
+    width: 100%;
+    height:200px
+  }
+
+}
+
+/* Media query for screens between 600px and 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .MathJax span {
+    font-size: 13px; /* Adjust to 90% of the default size */
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .MathJax span {
+    font-size: 10px; /* Adjust to 80% of the default size */
+    text-align: center;
+  }
+}
