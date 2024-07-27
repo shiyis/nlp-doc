@@ -1,5 +1,5 @@
 ---
-title: Phil-O-Mind
+title: Philosophy of Mind
 date: 2024-07-13 18:27:10
 categories:
   - Content
@@ -7,7 +7,7 @@ tags:
   - nlp-theories
 ---
 
-### Cognitive Sicence and The Philosophy of Mind
+### Cognitive Science and The Philosophy of Mind
 <span class="label label-danger">Q</span> What is the focus of this blog?</span>
 
 <span class="label label-success">A</span> This blog will summarize articles, papers, and materials I have gone through that touch on the subject of Philosophy of Mind and how its presence lays important foundation for the development of general artificial intelligence.

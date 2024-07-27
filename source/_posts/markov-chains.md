@@ -5,7 +5,7 @@ categories:
 date: 2024-07-16 08:13:20
 layout: search
 ---
-### Discussions on markov processes Contitnued
+### Discussions on Markov Processes Contitnued
 
 In a different blog, I noted the use of a markov processes in the context of natural language processing. Now in this blog, we will be going through some important details with regard to the concept.
 

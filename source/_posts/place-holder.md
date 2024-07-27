@@ -12,7 +12,7 @@ tags:
 
 # <span id="title-intro">Hello There! Welcome To This Blog.</span>
 
-I’m Shiyi. I’m deeply passionate about the intricate dance between data and innovation. With a fervent zeal for leveraging technology to extract insights and create meaningful impact, I’ve embarked on a journey that spans the realms of Data Science, research, and creative expression.
+I’m Shiyi. I’m deeply passionate about the intricate dance between data and innovation. With a fervent zeal for leveraging technology to extract insights and create a meaningful impact, I’ve embarked on a journey that spans the realms of Data Science, research, and creative expression.
 
 <span class="label label-danger">Q</span> What drives my work in Data Science and Machine Learning?</span>
 
