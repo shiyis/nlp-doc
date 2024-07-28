@@ -169,7 +169,7 @@ tags:
 <span class="label label-success">A</span> Here are some key references:
 <ul>
   <li>Rescorla, Michael. “The Computational Theory of Mind.” The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), edited by Edward N. Zalta.</li>
-  <li>Rumelhart, D. E., McClelland, J. L., & the PDP Research Group. (1986). Parallel Distributed Processing: Explorations in the Microstructure of Cognition*.</li>
+  <li>Rumelhart, D. E., McClelland, J. L., & the PDP Research Group. (1986). Parallel Distributed Processing: Explorations in the Microstructure of Cognition.</li>
   <li>Clark, A. (1993). Connectionism and Cognitive Architecture: A Critical Analysis.</li>
   <li>Bechtel, W., & Graham, G. (Eds.). (1998). Connectionism and Cognitive Science.</li>
   <li>Horgan, T., & Tienson, J. (1996). Foundations of Connectionism: A Reassessment.</li>
