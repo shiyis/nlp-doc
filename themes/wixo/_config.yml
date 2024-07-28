@@ -1,0 +1,19 @@
+rss: atom.xml
+fancybox: true
+favicon: /favicon.ico
+inverse_sort: false
+fold: true
+google_analytics:
+scratch_name: Content
+search:
+  path: search.xml
+  field: all
+
+
+url: https://shiyis.github.io/nlp-docs
+root: /nlp-docs/
+
+deploy:
+  type: git
+  repo: https://github.com/shiyis/nlp-docs.git
+  branch: gh-pages  # o

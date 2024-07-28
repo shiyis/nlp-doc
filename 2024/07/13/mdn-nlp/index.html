@@ -960,6 +960,12 @@ $$ \text{Jacobian} = \begin{pmatrix}
           },
         
           {
+            title: 'Variational Autoencoders',
+            content: '&lt;h3 id=&#34;Introducing-The-Gists-of-Variational-Autoencoders&#34;&gt;&lt;a href=&#34;#Introducing-The-Gists-of-Variational-Autoencoders&#34; class=&#34;headerlink&#34; title=&#34;Introducing The Gists of Variational Autoencoders&#34;&gt;&lt;/a&gt;Introducing The Gists of Variational Autoencoders&lt;/h3&gt;',
+            path: '2024/07/27/variational-auto-encoders/'
+          },
+        
+          {
             title: 'Transformer',
             content: '&lt;h3 id=&#34;Summarizing-and-breaking-down-of-the-code-that-form-the-Transformer-model-continued&#34;&gt;&lt;a href=&#34;#Summarizing-and-breaking-down-of-the-code-that-form-the-Transformer-model-continued&#34; class=&#34;headerlink&#34; title=&#34;Summarizing and breaking down of the code that form the Transformer model continued&#34;&gt;&lt;/a&gt;Summarizing and breaking down of the code that form the Transformer model continued&lt;/h3&gt;&lt;p&gt;Let’s break down the code snippet line by line to understand what each step does in the context of creating positional encodings for a Transformer model using PyTorch.&lt;/p&gt;
 &lt;h4 id=&#34;Code-Snippet&#34;&gt;&lt;a href=&#34;#Code-Snippet&#34; class=&#34;headerlink&#34; title=&#34;Code Snippet&#34;&gt;&lt;/a&gt;Code Snippet&lt;/h4&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;div_term = torch.exp(torch.arange(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;, d_model, &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;).&lt;span class=&#34;built_in&#34;&gt;float&lt;/span&gt;() *&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                                 (-math.log(&lt;span class=&#34;number&#34;&gt;10000.0&lt;/span&gt;) / d_model))&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pe[:, &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;::&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;] = torch.sin(position * div_term)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pe[:, &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;::&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;] = torch.cos(position * div_term)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;pe = pe.unsqueeze(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;).transpose(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -1128,12 +1134,6 @@ $$ \text{Jacobian} = \begin{pmatrix}
 &lt;/ul&gt;
 ',
             path: '2024/07/17/transformer/'
-          },
-        
-          {
-            title: 'Variational Autoencoders',
-            content: '&lt;h3 id=&#34;Introducing-The-Gists-of-Variational-Autoencoders&#34;&gt;&lt;a href=&#34;#Introducing-The-Gists-of-Variational-Autoencoders&#34; class=&#34;headerlink&#34; title=&#34;Introducing The Gists of Variational Autoencoders&#34;&gt;&lt;/a&gt;Introducing The Gists of Variational Autoencoders&lt;/h3&gt;',
-            path: '2024/07/27/variational-auto-encoders/'
           },
         
       ];
